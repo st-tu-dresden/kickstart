@@ -1,0 +1,19 @@
+/* CSS RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	width: 940px;
+	font: 13px/22px Helvetica, Arial, sans-serif;
+	background: #f0f0f0; 
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 3.2em;
+	text-align:center;
+}
