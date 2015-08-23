@@ -1,25 +1,8 @@
-= Software Engineering Lab - Infrastructure
+= Kickstart
 
-This repository contains a few projects to ease developing and building the Java projects for the Software Engineering Labs at TU Dresden.
-
-== Kickstart
-
-The kickstart module is the only student-facing artifact.
+The kickstart module is a template project to bootstrap the Java project in the Software Engineering lab.
 The project is supposed to be copied into the group's repository to get it started easily.
 It contains the following features:
 
 * a skeleton Java 8 web application based on Spring Boot and Salespoint framework (see `src/main/java`)
 * a placeholder Asciidoc file in `src/main/asciidoc` for documentation
-
-== Parent
-
-The kickstart project refers to a parent project that contains Maven configuration for an advanced build to be executed in a continuous integration environment.
-Here are the additional steps that will be executed if the build is run with the `ci` profile enabled (`mvn clean install -Pci`).
-
-* the JavaDoc of the project is build, packaged and attached to the project
-* the reference documentation (i.e. all `*.adoc` files in `src/main/asciidoc`) will be rendered into HTML and PDF
-* both JavaDoc and reference documentation are packaged into a zip and attached to the produced artifacts
-
-== Resources
-
-The `resources` module contains the assembly descriptor to package Javadoc and reference documentation via the assembly plugin declared in the parent project.
