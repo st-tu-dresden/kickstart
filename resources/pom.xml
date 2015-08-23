@@ -3,16 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.tudresden.inf.st.lab</groupId>
-	<artifactId>st-lab</artifactId>
+	<artifactId>st-lab-resources</artifactId>
 	<version>1.0.0.BUILD-SNAPSHOT</version>
-	<packaging>pom</packaging>
 
-	<name>Software Engineering Lab - Infrastructure</name>
-
-	<modules>
-		<module>parent</module>
-		<module>resources</module>
-		<module>kickstart</module>
-	</modules>
+	<name>Software Engineering Lab - Resources</name>
 
 </project>
