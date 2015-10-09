@@ -2,15 +2,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<groupId>de.tudresden.inf.st.lab</groupId>
 	<artifactId>lab-kickstart</artifactId>
-	<packaging>war</packaging>
+	<version>1.0.0.BUILD-SNAPSHOT</version>
 
 	<name>Software Engineering Lab - Kickstart</name>
 
 	<parent>
 		<groupId>de.tudresden.inf.st.lab</groupId>
 		<artifactId>st-lab-parent</artifactId>
-		<version>1.0.0.BUILD-SNAPSHOT</version>
+		<version>1.0.0.RC1</version>
 	</parent>
 
 	<dependencies>
