@@ -13,6 +13,7 @@ Verwarnungen, besondere Vorfälle, Organisatorisches
 
 ### Retrospektive des letzten Sprints
 
+*Issue referenziert die Issue ID von GitHub*
 
 | Issue | Aufgabe | Status | Bemerkung |
 |:-----:|---------|:------:|-----------|
@@ -25,6 +26,9 @@ Anmerkungen und Kritik zum aktuellen Stand der Software, den Diagrammen und den
 Dokumenten.
 
 ### Planung des nächsten Sprints
+
+*Issue referenziert die Issue ID von GitHub*
+
 | Issue | Titel | Beschreibung | Verantwortlicher | Status |
 |:-----:|:------|:-------------|------------------|:------:|
 |...    |....   |...           |...               |...     |
