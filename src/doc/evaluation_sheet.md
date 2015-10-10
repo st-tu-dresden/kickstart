@@ -1,6 +1,8 @@
-# Auswertungsbogen des Softwarepraktikums 2015/16
+# Persönliches Feedback eines Teammitgliedes des Softwarepraktikums 2015/16
 
 **Von:**
+
+**Gruppe:**
 
 ##### Was habe ich gelernt?
 

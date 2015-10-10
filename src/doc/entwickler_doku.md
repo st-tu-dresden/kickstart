@@ -16,6 +16,7 @@
 Kurzer Überblick über Ihre grundlegenden Entscheidungen und Lösungsansätze, die jeder, der mit der Architektur zu tun hat, verstanden haben sollte.
 
 ## Bausteinsicht
+- Package-Diagramme
 
 ## Entwurfsentscheidungen
 - Architektur
