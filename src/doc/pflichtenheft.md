@@ -1,0 +1,102 @@
+# Pflichtenheft
+
+## Projektname
+
+__Version:__    *1.0*
+
+__Status:__     *In Arbeit*
+
+__Stand:__      *Bearbeitungsdatum*
+
+## Zusammenfassung
+
+Eine kurze Beschreibung des Dokuments. Wenige Absätze.
+
+## Inhaltsverzeichnis
+
+## Aufgabenstellung und Zielsetzung
+
+Text aus Aufgabenstellung kopieren und ggfs. präzisieren.
+
+## Fachlicher Überblick
+
+Einleitung für fachfremde Personen
+
+## Systemgrenze und Top-Level-Architektur
+
+### Kontextdiagramm
+
+Das Kontextdiagramm zeigt das geplante Software-System in seiner Umgebung. Zur Umgebung gehören alle Nutzergruppen des Systems und Nachbarsysteme. Die Grafik kann auch informell gehalten sein. Überlegen Sie sich dann geeignete Symbole. Die Grafik kann beispielsweise mit Visio erstellt werden. Wenn nötig, erläutern Sie diese Grafik.
+
+### Top level architecture
+
+Dokumentieren Sie ihre Top-Level-Architektur mit Hilfe eines Komponentendiagramm.
+
+## Anwendungsfälle
+
+### Überblick Anwendungsfalldiagramm
+
+Anwendungsfall-Diagramm, das alle Anwendungsfälle und alle Akteure darstellt
+### Akteure
+
+Akteure sind die Benutzer des Software-Systems oder Nachbarsysteme, welche darauf zugreifen. Dokumentieren Sie die Akteure in einer Tabelle. Diese Tabelle gibt einen Überblick über die Akteure und beschreibt sie kurz. Die Tabelle hat also mindestens zwei Spalten (Akteur Name und Kommentar).
+
+| Name | Beschreibung |
+|------|--------------|
+| ...  | ...          |
+
+
+### Anwendungsfallbeschreibungen
+
+Dieser Unterabschnitt beschreibt die Anwendungsfälle. In dieser Beschreibung müssen noch nicht alle Sonderfälle und Varianten berücksichtigt werden. Schwerpunkt ist es, die wichtigsten Anwendungsfälle des Systems zu finden. Wichtig sind solche Anwendungsfälle, die für den Auftraggeber, den Nutzer den größten Nutzen bringen.
+Für komplexere Anwendungsfälle ein UML-Sequenzdiagramm ergänzen.
+Einfache Anwendungsfälle mit einem Absatz beschreiben.
+Die typischen Anwendungsfälle (Anlegen, Ändern, Löschen) können zu einem einzigen zusammengefasst werden.
+
+## Anforderungen
+
+### Muss-Kriterien
+
+Was das zu erstellende Programm auf alle Fälle leisten muss.
+
+### Kann-Kriterien
+
+Anforderungen die das Programm leisten können soll, aber für den korrekten Betrieb entbehrlich sind.
+
+## GUI Prototyp
+
+### Überblick: Dialoglandkarte
+
+Erstellen Sie ein Übersichtsdiagramm, das das Zusammenspiel Ihrer Masken zur Laufzeit darstellt. Also mit welchen Aktionen zwischen den Masken navigiert wird. Die nachfolgende Abbildung zeigt eine an die Pinnwand gezeichnete Dialoglandkarte. Ihre Karte sollte zusätzlich die Buttons/Funktionen darstellen, mit deren Hilfe Sie zwischen den Masken navigieren.
+
+### Dialogbeschreibung
+
+Für jeden Dialog:
+
+1. Kurze textuelle Dialogbeschreibung eingefügt: Was soll der jeweilige Dialog? Was kann man damit tun? Überblick?
+2. Maskenentwürfe (Screenshot, Mockup)
+3. Maskenelemente (Ein/Ausgabefelder, Aktionen wie Buttons, Listen, …)
+4. Evtl. Maskendetails, spezielle Widgets
+
+## Datenmodell
+
+### Überblick: Klassendiagramm
+
+UML-Analyseklassendiagramm
+
+### Klassen und Enumerationen
+
+Dieser Abschnitt stellt eine Vereinigung von Glossar und der Beschreibung von Klassen/Enumerationen dar. Jede Klasse und Enumeration wird in Form eines Glossars textuell beschrieben. Zusätzlich werden eventuellen Konsistenz- und Formatierungsregeln aufgeführt.
+
+| Klasse/Enumeration | Beschreibung |
+|--------------------| ------------ |
+| ...                | ...          |
+
+
+## Aktzeptanztestfälle
+
+Mithilfe von Akzeptanztests wird geprüft, ob die Software die funktionalen Erwartungen und Anforderungen im Gebrauch erfüllt. Diese sollen und können aus den Anwendungsfallbeschreibungen und den UML-Sequenzdiagrammen abgeleitet werden. D.h., pro (komplexen) Anwendungsfall gibt es typischerweise mindestens ein Sequenzdiagramm (welches ein Szenarium beschreibt). Für jedes Szenarium sollte es einen Akzeptanztestfall geben. Listen Sie alle Akzeptanztestfälle in tabellarischer Form auf.
+
+## Offene Punkte
+
+Offene Punkte werden entweder direkt in der Spezifikation notiert. Wenn das Pflichtenheft  zum finalen Review vorgelegt wird, sollte es keine offenen Punkte mehr geben.
