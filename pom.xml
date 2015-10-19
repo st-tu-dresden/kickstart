@@ -29,13 +29,6 @@
 			<artifactId>hsqldb</artifactId>
 		</dependency>
 
-		<!-- Devtools -->
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-		</dependency>
-
 	</dependencies>
 
 	<build>
