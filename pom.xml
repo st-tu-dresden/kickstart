@@ -57,10 +57,17 @@
 	</repositories>
 
 	<pluginRepositories>
+
 		<pluginRepository>
 			<id>spring-libs-milestone</id>
 			<url>https://repo.spring.io/libs-milestone</url>
 		</pluginRepository>
+
+		<pluginRepository>
+			<id>salespointframework</id>
+			<url>http://www.st.inf.tu-dresden.de/SalesPoint/repository</url>
+		</pluginRepository>
+
 	</pluginRepositories>
 
 </project>
