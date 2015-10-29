@@ -5,5 +5,7 @@ Die verwendete Zeit beinhaltet auch das Lesen von Dokumentationen, Besprechungen
 
 // See http://asciidoctor.org/docs/user-manual/#tables
 [option="headers"]
+|===
 |Von |Bis |Dev1 |Dev2 |Dev3 |Dev4 |Dev5 |Dev6 |Meeting
 |…   |…   |…    |…    |…    |…    |…    |…    |…
+|===
