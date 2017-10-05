@@ -1,0 +1,3 @@
+= Modelle Ordner
+
+Hier legen Sie bitte alle Klassendiagramme als Datei und Bild ab. Diese können somit einfach in der Dokumentation referenziert werden.
