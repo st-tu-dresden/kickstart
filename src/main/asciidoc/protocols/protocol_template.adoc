@@ -1,17 +1,29 @@
 = Protokoll Gruppe XX
-__Treffen am XX.XX.20XX__
+
+Treffen am XX.XX.20XX
+
+Ort:      Ort des Treffens +
+Beginn:   xx:xx Uhr +
+Ende:     xx:xx Uhr
 
 __Schriftführer:__
 
-__Nächstes Treffen:__ XX.XX.20XX
+*Nächstes Treffen:* +
+XX.XX.20XX, xx:xx Uhr, Ort des nächsten Treffens
 
 __Teilnehmer:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Teilnehmer 1
+- Teilnehmer 2
+- ...
 
 == Bemerkungen
-Verwarnungen, besondere Vorfälle, Organisatorisches
+Verwarnungen, besondere Vorfälle, Organisatorisches, wichtige getroffene Entscheidungen
 
 == Retrospektive des letzten Sprints
 *Issue referenziert die Issue ID von GitHub*
+// Wie ist der Status der im letzten Sprint erstellten Issues/veteilten Aufgaben?
 
 // See http://asciidoctor.org/docs/user-manual/=tables
 [option="headers"]
