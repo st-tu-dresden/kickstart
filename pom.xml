@@ -3,74 +3,29 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>lab-kickstart</artifactId>
-	<version>1.2.3.BUILD_SNAPSHOT</version>
+	<version>2.0.0.BUILD-SNAPSHOT</version>
 
 	<name>Software Engineering Lab - Kickstart</name>
 
 	<parent>
 		<groupId>de.tudresden.inf.st.lab</groupId>
 		<artifactId>st-lab-parent</artifactId>
-		<version>1.2.1.RELEASE</version>
+		<version>2.0.0.RELEASE</version>
 	</parent>
 
 	<dependencies>
 
-		<dependency>
-			<groupId>de.tudresden.inf.st</groupId>
-			<artifactId>salespoint-framework</artifactId>
-			<version>6.4.0.RELEASE</version>
-		</dependency>
-
-		<!-- Persistence -->
-
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-		</dependency>
-
-		<!-- Spring Boot Devtools -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<optional>true</optional>
-		</dependency>
+		<!-- Additional project dependencies go here -->
 
 	</dependencies>
-
-	<build>
-		<plugins>
-
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<dependencies>
-					<dependency>
-						<groupId>org.springframework.boot.experimental</groupId>
-						<artifactId>spring-boot-thin-layout</artifactId>
-						<version>1.0.7.RELEASE</version>
-					</dependency>
-				</dependencies>
-			</plugin>
-
-		</plugins>
-	</build>
 
 	<repositories>
 
 		<repository>
 			<id>salespointframework</id>
-			<url>http://www.st.inf.tu-dresden.de/SalesPoint/repository</url>
+			<url>https://www.st.inf.tu-dresden.de/SalesPoint/repository</url>
 		</repository>
 
 	</repositories>
-
-	<pluginRepositories>
-
-		<pluginRepository>
-			<id>salespointframework</id>
-			<url>http://www.st.inf.tu-dresden.de/SalesPoint/repository</url>
-		</pluginRepository>
-
-	</pluginRepositories>
 
 </project>
