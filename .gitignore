@@ -19,3 +19,7 @@ out/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# H2 database files
+*.mv.db
+*.h2.db
