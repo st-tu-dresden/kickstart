@@ -1,5 +1,21 @@
+# Maven
 target/
+
+# Eclipse
+bin/
 .settings/
 .project
 .classpath
+
+# Eclipse STS plugin
 .springBeans
+
+# IntelliJ
+out/
+.idea/
+*.iml
+
+# OS specific
+.DS_Store
+Thumbs.db
+Desktop.ini
