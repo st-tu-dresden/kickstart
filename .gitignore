@@ -6,6 +6,7 @@ bin/
 .settings/
 .project
 .classpath
+.factorypath
 
 # Eclipse STS plugin
 .springBeans
