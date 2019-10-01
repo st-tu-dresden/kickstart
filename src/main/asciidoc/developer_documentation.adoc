@@ -1,0 +1,65 @@
+[options="header"]
+[cols="1, 3, 3"]
+|===
+|Version | Bearbeitungsdatum   | Autor 
+|...	| ... | ...
+|===
+
+= Entwicklerdokumentation
+
+== Einführung und Ziele
+* Aufgabenstellung
+* Qualitätsziele
+
+== Randbedingungen
+* Hardware-Vorgaben
+* Software-Vorgaben
+* Vorgaben zum Betrieb des Software
+
+== Kontextabgrenzung
+* Kontextdiagramm
+
+== Lösungsstrategie
+=== Erfüllung der Qualitätsziele
+[options="header"]
+|=== 
+|Qualitätsziel |Lösungsansatz
+|... |...
+|===
+
+=== Softwarearchitektur
+* Beschreibung der Architektur anhand der Top-Level-Architektur oder eines Client-Server-Diagramms
+
+=== Entwurfsentscheidungen
+* Verwendete Muster
+* Persistenz
+* Benutzeroberfläche
+* Verwendung externer Frameworks
+
+[options="header", cols="1,3,3"]
+|===
+|Externe Klasse |Pfad der externen Klasse |Verwendet von (Klasse der eigenen Anwendung)
+|... |... |...
+|===
+
+== Bausteinsicht
+* Entwurfsklassendiagramme der einzelnen Packages
+
+[options="header"]
+|=== 
+|Klasse/Enumeration |Description
+|===
+
+=== Rückverfolgbarkeit zwischen Analyse- und Entwurfsmodell
+
+[options="header"]
+|===
+|Klasse/Enumeration (Analysemodell) |Klasse/Enumeration (Entwurfsmodell)
+|===
+
+== Laufzeitsicht
+* Komponentenbezogene Sequenzdiagramme, welche darstellen, wie die Anwendung mit externen Frameworks (zB. Salespoint, Spring) interagiert.
+
+== Technische Schulden
+* Auflistung der nicht erreichten Quality Gates und der zugehörigen SonarQube Issues
+
