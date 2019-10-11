@@ -10,8 +10,8 @@ It contains the following features:
 == How to run the application?
 
 * In the IDE: find `Application.java`, richt-click project, select "Run As > Java Application"
-* From the command line: run `mvn spring-boot:run`
+* From the command line: run `./mvnw spring-boot:run`
 
 == How to package the application?
 
-* Run `mvn clean package`. The packaged application (a JAR in `target/`) can be run with `java -jar $jarName`.
+* Run `./mvnw clean package`. The packaged application (a JAR in `target/`) can be run with `java -jar $jarName`.
