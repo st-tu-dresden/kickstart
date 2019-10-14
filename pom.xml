@@ -49,4 +49,13 @@
 
 	</repositories>
 
+	<pluginRepositories>
+
+		<pluginRepository>
+			<id>spring-libs-milestone</id>
+			<url>https://repo.spring.io/libs-snapshot</url>
+		</pluginRepository>
+
+	</pluginRepositories>
+
 </project>
