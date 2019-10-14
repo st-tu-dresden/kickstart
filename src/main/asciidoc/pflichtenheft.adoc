@@ -6,7 +6,7 @@
 [cols="1, 1, 1, 1, 4"]
 |===
 |Version | Status      | Bearbeitungsdatum   | Autoren(en) |  Vermerk
-|0.1     | In Arbeit   | 10.10.2017          | Autor       | Initiale Version
+|0.1     | In Arbeit   | 10.10.2019          | Autor       | Initiale Version
 |===
 
 == Inhaltsverzeichnis
