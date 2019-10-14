@@ -16,6 +16,9 @@ out/
 .idea/
 *.iml
 
+# MagicDraw
+*.mdzip.bak
+
 # OS specific
 .DS_Store
 Thumbs.db
