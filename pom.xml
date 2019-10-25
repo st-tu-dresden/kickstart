@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>lab-kickstart</artifactId>
-	<version>2.1.1.BUILD-SNAPSHOT</version>
+	<version>2.1.1.RELEASE</version>
 
 	<name>Software Engineering Lab - Kickstart</name>
 
