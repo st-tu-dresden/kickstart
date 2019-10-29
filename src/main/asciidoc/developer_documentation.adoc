@@ -38,7 +38,7 @@
 
 [options="header", cols="1,3,3"]
 |===
-|Externe Klasse |Pfad der externen Klasse |Verwendet von (Klasse der eigenen Anwendung)
+|Externes Package |Verwendet von (Klasse der eigenen Anwendung)
 |... |... |...
 |===
 
@@ -58,8 +58,8 @@
 |===
 
 == Laufzeitsicht
-* Komponentenbezogene Sequenzdiagramme, welche darstellen, wie die Anwendung mit externen Frameworks (zB. Salespoint, Spring) interagiert.
+* Darstellung der Komponenteninteraktion anhand eines beispielhaften Funktionsablaufs
 
 == Technische Schulden
-* Auflistung der nicht erreichten Quality Gates und der zugehörigen SonarQube Issues
+* Auflistung der nicht erreichten Quality Gates und der zugehörigen SonarQube Issues zum Zeitpunkt der Abgabe
 
