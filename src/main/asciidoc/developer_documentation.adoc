@@ -66,7 +66,7 @@ wird die Art der Verwendung dieser externen Klasse in der Spalte *Art der Verwen
 |===
 
 == Laufzeitsicht
-* Darstellung der Komponenteninteraktion anhand eines beispielhaften Funktionsablaufs
+* Darstellung der Komponenteninteraktion anhand eines Sequenzdiagramms, welches die relevantesten Interkationen darstellt.
 
 == Technische Schulden
 * Auflistung der nicht erreichten Quality Gates und der zugehörigen SonarQube Issues zum Zeitpunkt der Abgabe
