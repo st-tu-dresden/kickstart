@@ -36,10 +36,10 @@
 * Benutzeroberfläche
 * Verwendung externer Frameworks
 
-[options="header", cols="1,3,3"]
+[options="header", cols="1,2"]
 |===
 |Externes Package |Verwendet von (Klasse der eigenen Anwendung)
-|... |... |...
+|... |... 
 |===
 
 == Bausteinsicht
@@ -48,13 +48,21 @@
 [options="header"]
 |=== 
 |Klasse/Enumeration |Description
+|...|...
 |===
 
 === Rückverfolgbarkeit zwischen Analyse- und Entwurfsmodell
+_Die folgende Tabelle zeigt die Rückverfolgbarkeit zwischen Entwurfs- und Analysemodell. Falls eine Klasse aus einem externen Framework im Entwurfsmodell eine Klasse des Analysemodells ersetzt,
+wird die Art der Verwendung dieser externen Klasse in der Spalte *Art der Verwendung* mithilfe der folgenden Begriffe definiert:_
+
+* Inherictance/Interface-Implementation
+* Class Attribute
+* Method Parameter
 
 [options="header"]
 |===
-|Klasse/Enumeration (Analysemodell) |Klasse/Enumeration (Entwurfsmodell)
+|Klasse/Enumeration (Analysemodell) |Klasse/Enumeration (Entwurfsmodell) |Art der Verwendung
+|...|...|...
 |===
 
 == Laufzeitsicht
