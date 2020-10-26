@@ -4,8 +4,8 @@ The kickstart module is a template project to bootstrap the Java project in the 
 The project is supposed to be copied into the group's repository to get it started easily.
 It contains the following features:
 
-* a skeleton Java 11 web application based on Spring Boot and Salespoint framework (see `src/main/java`)
-* a placeholder Asciidoc file in `src/main/asciidoc` for documentation
+* a skeleton Java 11 web application based on Spring Boot and Salespoint framework (see `src/main/java` and `src/test/java`)
+* Asciidoc documentation templates in `src/main/asciidoc`
 
 == Important documents in this repo
 
@@ -13,6 +13,20 @@ It contains the following features:
 * link:src/main/asciidoc/time_recording.adoc[Time recording (Zeiterfassung)]
 * link:src/main/asciidoc/pflichtenheft.adoc[Requirements specification (Pflichtenheft)]
 * link:src/main/asciidoc/developer_documentation.adoc[Developer documentation (Entwicklerdokumentation)]
+
+== The repository layout
+
+The repository follows the standard Maven project layout. Nearly all artifacts are stored in a subdirectory of `src/`:
+
+  src/
+  ├── main/
+  │   ├── asciidoc/   -- Documentation of the development process and application (Asciidoc format)
+  │   ├── java/       -- Main source code of the application, separated into packages
+  │   └── resources/  -- Static assets (images, stylesheets), Thymeleaf templates, etc.
+  └── test/
+      └── java/       -- Source code of JUnit tests is stored separately
+
+**Pro tip:** In GitHub, press *t* and a "fuzzy file finder" will appear, making it easy to navigate to a file.
 
 == How to run the application?
 
