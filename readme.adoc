@@ -7,6 +7,13 @@ It contains the following features:
 * a skeleton Java 11 web application based on Spring Boot and Salespoint framework (see `src/main/java`)
 * a placeholder Asciidoc file in `src/main/asciidoc` for documentation
 
+== Important documents in this repo
+
+* link:src/main/asciidoc/protocols[Meeting Protocols]
+* link:src/main/asciidoc/time_recording.adoc[Time recording (Zeiterfassung)]
+* link:src/main/asciidoc/pflichtenheft.adoc[Requirements specification (Pflichtenheft)]
+* link:src/main/asciidoc/developer_documentation.adoc[Developer documentation (Entwicklerdokumentation)]
+
 == How to run the application?
 
 * In the IDE: find `Application.java`, right-click project, select "Run As > Java Application"
