@@ -1,7 +1,10 @@
+// Hi there! We've already included some generally useful information in here.
+// Feel free to edit the first section to add a short description of your task and your project.
+
 = Kickstart
 
 The kickstart module is a template project to bootstrap the Java project in the Software Engineering lab.
-The project is supposed to be copied into the group's repository to get it started easily.
+Each group's repository is initialized with this template.
 It contains the following features:
 
 * a skeleton Java 11 web application based on Spring Boot and Salespoint framework (see `src/main/java` and `src/test/java`)
