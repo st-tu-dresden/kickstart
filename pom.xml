@@ -6,6 +6,11 @@
 	<version>2.2.0.BUILD-SNAPSHOT</version>
 
 	<name>Software Engineering Lab - Kickstart</name>
+	<description>Template project for the ST lab</description>
+	<url>https://github.com/st-tu-dresden/kickstart</url>
+	<scm>
+		<url>https://github.com/st-tu-dresden/kickstart</url>
+	</scm>
 
 	<parent>
 		<groupId>de.tudresden.inf.st.lab</groupId>
