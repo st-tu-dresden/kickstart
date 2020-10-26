@@ -33,6 +33,7 @@ public class Application {
 
 		@Override
 		protected void configure(HttpSecurity http) throws Exception {
+			http.csrf().disable();  // for lab purposes, that's ok!
 			http.authorizeRequests().antMatchers("/**").permitAll().and()
 					.formLogin().loginProcessingUrl("/login").and()
 					.logout().logoutUrl("/logout").logoutSuccessUrl("/");
