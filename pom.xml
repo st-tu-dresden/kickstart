@@ -24,14 +24,18 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
 
 		<!--
 			Additional project dependencies go here.
 
 			BUT PLEASE NOTE!
 
-			The parent pom that is referenced above already includes *everything*
-			that is needed for the lab: Spring, Salespoint, Hibernate, JUnit, etc.
+			The parent pom that is referenced above already includes most libraries
+			necessary for the lab: Spring, Salespoint, Hibernate, JUnit, etc.
 
 			You can list the current dependencies and their versions using the
 			`mvn dependency:list` command.
