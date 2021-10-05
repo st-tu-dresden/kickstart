@@ -1,4 +1,6 @@
-# Maven
+# Java and Maven
+*.class
+*.jar
 target/
 
 # Eclipse
@@ -16,6 +18,9 @@ out/
 .idea/
 *.iml
 
+# VS Code
+.vscode/
+
 # MagicDraw
 *.mdzip.bak
 
@@ -27,3 +32,7 @@ Desktop.ini
 # H2 database files
 *.mv.db
 *.h2.db
+
+# Misc
+hs_err_*.log
+~$*
