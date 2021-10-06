@@ -18,6 +18,7 @@
 		<groupId>de.tudresden.inf.st.lab</groupId>
 		<artifactId>st-lab-parent</artifactId>
 		<version>2.4.0</version>
+		<relativePath />
 	</parent>
 
 	<properties>
@@ -50,24 +51,10 @@
 	<repositories>
 
 		<repository>
-			<id>spring-libs-milestone</id>
-			<url>https://repo.spring.io/libs-milestone</url>
-		</repository>
-
-		<repository>
 			<id>salespointframework</id>
 			<url>https://www.st.inf.tu-dresden.de/SalesPoint/repository</url>
 		</repository>
 
 	</repositories>
-
-	<pluginRepositories>
-
-		<pluginRepository>
-			<id>spring-libs-milestone</id>
-			<url>https://repo.spring.io/libs-milestone</url>
-		</pluginRepository>
-
-	</pluginRepositories>
 
 </project>
