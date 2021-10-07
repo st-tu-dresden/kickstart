@@ -5,7 +5,7 @@
 	<!-- Dear students, please *do not* change the following metadata. Thanks! -->
 
 	<artifactId>lab-kickstart</artifactId>
-	<version>2.2.1.BUILD-SNAPSHOT</version>
+	<version>2.3.0</version>
 
 	<name>Software Engineering Lab - Kickstart</name>
 	<description>Template project for the ST lab</description>
