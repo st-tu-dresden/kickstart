@@ -3,6 +3,9 @@
 *.jar
 target/
 
+# Un-ignore maven wrapper jar
+!/.mvn/wrapper/maven-wrapper.jar
+
 # Eclipse
 bin/
 .settings/
