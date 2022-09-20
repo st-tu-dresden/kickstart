@@ -7,7 +7,7 @@ The kickstart module is a template project to bootstrap the Java project in the 
 Each group's repository is initialized with this template.
 It contains the following features:
 
-* a skeleton Java 11 web application based on Spring Boot and Salespoint framework (see `src/main/java` and `src/test/java`)
+* a skeleton Java 17 web application based on Spring Boot and Salespoint framework (see `src/main/java` and `src/test/java`)
 * Asciidoc documentation templates in `src/main/asciidoc`
 
 == Important documents in this repo

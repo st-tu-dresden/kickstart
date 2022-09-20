@@ -22,7 +22,7 @@
 	</parent>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 		<salespoint.version>7.4.0</salespoint.version>
 	</properties>
 
