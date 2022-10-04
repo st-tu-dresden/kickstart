@@ -36,6 +36,6 @@ class WelcomeControllerIntegrationTests {
 	void showsWelcomeMessage() throws Exception {
 		mvc.perform(get("/")) //
 				.andExpect(status().isOk())
-				.andExpect(content().string(containsString("Welcome!")));
+				.andExpect(content().string(containsString("Welcome back!")));
 	}
 }
