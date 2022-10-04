@@ -24,6 +24,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<salespoint.version>7.4.0</salespoint.version>
+		<argLine>-Xmx1G</argLine>
 	</properties>
 
 	<dependencies>
@@ -52,19 +53,6 @@
 		-->
 
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<configuration>
-					<!-- 1 GB ought to be enough for anyone :) -->
-					<argLine>-Xmx1G</argLine>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 
 	<repositories>
 
