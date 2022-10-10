@@ -35,5 +35,5 @@ jobs:
       if: github.ref == 'refs/heads/main'
       run: ./mvnw sonar:sonar -B
       env:
-        SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        SONAR_LOGIN: ${{ secrets.SONAR_LOGIN }}
+        STLAB_SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+        STLAB_SONAR_LOGIN: ${{ secrets.SONAR_LOGIN }}
