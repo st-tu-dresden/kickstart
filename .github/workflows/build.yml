@@ -2,7 +2,11 @@
 
 name: CI build
 
-on: push
+on:
+  push:
+    paths-ignore:
+    - 'src/main/asciidoc/**'
+    - 'readme.adoc'
 
 env:
   MAVEN_OPTS: -Xmx1G
