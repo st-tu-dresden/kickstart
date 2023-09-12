@@ -36,38 +36,32 @@
 * Benutzeroberfläche
 * Verwendung externer Frameworks
 
-[options="header", cols="1,2"]
+[options="header", cols="1,2,3"]
 |===
-|Externes Package |Verwendet von (Klasse der eigenen Anwendung)
-|... |... 
+|Externes Package |Verwendet von |Warum
+|... |... |...
 |===
 
 == Bausteinsicht
+* Package-Diagramm
 * Entwurfsklassendiagramme der einzelnen Packages
 
 [options="header"]
 |=== 
 |Klasse/Enumeration |Description
-|...|...
+|... |...
 |===
 
 === Rückverfolgbarkeit zwischen Analyse- und Entwurfsmodell
-_Die folgende Tabelle zeigt die Rückverfolgbarkeit zwischen Entwurfs- und Analysemodell. Falls eine Klasse aus einem externen Framework im Entwurfsmodell eine Klasse des Analysemodells ersetzt,
-wird die Art der Verwendung dieser externen Klasse in der Spalte *Art der Verwendung* mithilfe der folgenden Begriffe definiert:_
-
-* Inheritance/Interface-Implementation
-* Class Attribute
-* Method Parameter
+_Die folgende Tabelle zeigt die Rückverfolgbarkeit zwischen Entwurfs- und Analysemodell._
 
 [options="header"]
 |===
-|Klasse/Enumeration (Analysemodell) |Klasse/Enumeration (Entwurfsmodell) |Art der Verwendung
-|...|...|...
+|Klasse/Enumeration (Analysemodell) |Klasse/Enumeration (Entwurfsmodell)
+|... |...
 |===
 
 == Laufzeitsicht
 * Darstellung der Komponenteninteraktion anhand eines Sequenzdiagramms, welches die relevantesten Interaktionen darstellt.
 
-== Technische Schulden
-* Auflistung der nicht erreichten Quality Gates und der zugehörigen SonarQube Issues zum Zeitpunkt der Abgabe
 
