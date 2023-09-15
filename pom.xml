@@ -25,7 +25,7 @@
 		<java.version>17</java.version>
 		<salespoint.version>8.0.0</salespoint.version>
 		<sonar.host.url>${env.STLAB_SONAR_HOST_URL}</sonar.host.url>
-		<sonar.login>${env.STLAB_SONAR_LOGIN}</sonar.login>
+		<sonar.token>${env.STLAB_SONAR_LOGIN}</sonar.token>
 		<argLine>-Xmx1G</argLine>
 	</properties>
 
