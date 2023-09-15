@@ -29,11 +29,8 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Build with Maven
-      run: ./mvnw clean package -DskipTests -Pci -B
-
-    - name: Test with Maven
-      run: ./mvnw verify -Pci -B
+    - name: Build and test with Maven
+      run: ./mvnw clean verify -Pci -B
 
     - name: Run and publish SonarQube analysis
       if: github.ref == 'refs/heads/main'
