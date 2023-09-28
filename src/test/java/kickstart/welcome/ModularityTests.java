@@ -21,10 +21,10 @@ import java.io.IOException;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import org.moduliths.docs.Documenter;
-import org.moduliths.docs.Documenter.CanvasOptions;
-import org.moduliths.docs.Documenter.Options;
-import org.moduliths.model.Modules;
+import org.springframework.modulith.core.ApplicationModules;
+import org.springframework.modulith.docs.Documenter;
+import org.springframework.modulith.docs.Documenter.CanvasOptions;
+import org.springframework.modulith.docs.Documenter.DiagramOptions;
 
 /**
  * Test case to verify the modular structure of the application.
@@ -33,7 +33,7 @@ import org.moduliths.model.Modules;
  */
 class ModularityTests {
 
-	Modules modules = Modules.of(Application.class);
+	ApplicationModules modules = ApplicationModules.of(Application.class);
 
 	@Test
 	@Disabled
@@ -46,6 +46,6 @@ class ModularityTests {
 	void generateDocs() throws IOException {
 
 		new Documenter(modules)
-				.writeDocumentation(Options.defaults(), CanvasOptions.defaults());
+				.writeDocumentation(DiagramOptions.defaults(), CanvasOptions.defaults());
 	}
 }

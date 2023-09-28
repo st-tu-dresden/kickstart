@@ -16,27 +16,40 @@
 package kickstart;
 
 import org.salespointframework.EnableSalespoint;
-import org.salespointframework.SalespointSecurityConfiguration;
 import org.springframework.boot.SpringApplication;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configurers.HeadersConfigurer.FrameOptionsConfig;
+import org.springframework.security.web.SecurityFilterChain;
 
+/**
+ * The main application class.
+ */
 @EnableSalespoint
 public class Application {
 
+	/**
+	 * The main application method
+	 * 
+	 * @param args application arguments
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
 
 	@Configuration
-	static class WebSecurityConfiguration extends SalespointSecurityConfiguration {
+	static class WebSecurityConfiguration {
 
-		@Override
-		protected void configure(HttpSecurity http) throws Exception {
-			http.csrf().disable();  // for lab purposes, that's ok!
-			http.authorizeRequests().antMatchers("/**").permitAll().and()
-					.formLogin().loginProcessingUrl("/login").and()
-					.logout().logoutUrl("/logout").logoutSuccessUrl("/");
+		@Bean
+		SecurityFilterChain videoShopSecurity(HttpSecurity http) throws Exception {
+
+			return http
+					.headers(headers -> headers.frameOptions(FrameOptionsConfig::sameOrigin))
+					.csrf(csrf -> csrf.disable())
+					.formLogin(login -> login.loginProcessingUrl("/login"))
+					.logout(logout -> logout.logoutUrl("/logout").logoutSuccessUrl("/"))
+					.build();
 		}
 	}
 }

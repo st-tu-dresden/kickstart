@@ -17,13 +17,13 @@
 	<parent>
 		<groupId>de.tudresden.inf.st.lab</groupId>
 		<artifactId>st-lab-parent</artifactId>
-		<version>3.0.0</version>
+		<version>4.0.0</version>
 		<relativePath />
 	</parent>
 
 	<properties>
 		<java.version>17</java.version>
-		<salespoint.version>8.0.0</salespoint.version>
+		<salespoint.version>9.0.0</salespoint.version>
 		<sonar.host.url>${env.STLAB_SONAR_HOST_URL}</sonar.host.url>
 		<sonar.token>${env.STLAB_SONAR_LOGIN}</sonar.token>
 		<argLine>-Xmx1G</argLine>
