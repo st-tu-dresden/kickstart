@@ -4,7 +4,7 @@
 	<!-- Dear students, please *do not* change the following metadata. Thanks! -->
 
 	<artifactId>lab-kickstart</artifactId>
-	<version>5.1.2</version>
+	<version>5.2.0-SNAPSHOT</version>
 
 	<name>Software Engineering Lab - Kickstart</name>
 	<description>Template project for the ST lab</description>
@@ -53,7 +53,7 @@
 
 	<scm>
 		<url>https://github.com/st-tu-dresden/kickstart</url>
-	  <tag>5.1.2</tag>
-  </scm>
+		<tag>main</tag>
+	</scm>
 
 </project>
