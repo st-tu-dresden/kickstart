@@ -18,7 +18,7 @@
 	</parent>
 
 	<properties>
-		<java.version>21</java.version>
+		<java.version>25</java.version>
 		<sonar.host.url>${env.STLAB_SONAR_HOST_URL}</sonar.host.url>
 		<sonar.token>${env.STLAB_SONAR_LOGIN}</sonar.token>
 		<argLine>-Xmx1G</argLine>
