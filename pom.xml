@@ -53,6 +53,7 @@
 
 	<scm>
 		<url>https://github.com/st-tu-dresden/kickstart</url>
+		<connection>scm:git:https://github.com/st-tu-dresden/kickstart</connection>
 		<tag>main</tag>
 	</scm>
 
